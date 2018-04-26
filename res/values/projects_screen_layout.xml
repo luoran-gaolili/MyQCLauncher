@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <integer name="test_rows">5</integer>
+    <integer name="test_columns">4</integer>
+    <integer name="test_hotseat_numb">4</integer>
+    <integer name="go55303_rows">5</integer>
+    <integer name="go55303_columns">4</integer>
+    <integer name="go55303_hotseat_numb">4</integer>
+    <integer name="go55307_rows">5</integer>
+    <integer name="go55307_columns">4</integer>
+    <integer name="go55307_hotseat_numb">4</integer>
+    <integer name="voga55909_rows">5</integer>
+    <integer name="voga55909_columns">4</integer>
+    <integer name="voga55909_hotseat_numb">4</integer>
+</resources>

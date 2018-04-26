@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/widget_holder"
+        android:layout_width="match_parent"
+        android:layout_height="480px">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/widget_holder_small"
+        android:layout_width="match_parent"
+        android:layout_height="240px"
+        android:alpha="0">
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="786px"
+        android:layout_height="786px"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="450px"
+        android:id="@+id/projector_switch">
+
+        <FrameLayout
+            android:layout_width="630px"
+            android:layout_height="630px"
+            android:layout_gravity="center"
+            android:id="@+id/projector_menu"
+            android:clickable="true">
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/projector_switch_off">
+
+            <FrameLayout
+                android:layout_width="576px"
+                android:layout_height="576px"
+                android:layout_gravity="center"
+                android:id="@+id/projector_logo">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/button_circle_homepage" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/button_logo_homepage" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="630px"
+                android:layout_height="630px"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:id="@+id/projector_standby">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/button_outline_homepage" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/button_circle_homepage_click" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/button_click_homepage" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="786px"
+                android:layout_height="786px"
+                android:layout_gravity="center"
+                android:id="@+id/img_outline_1"
+                android:alpha="0"
+                android:src="@drawable/button_circle_homepage_highlight_a" />
+
+            <ImageView
+                android:layout_width="786px"
+                android:layout_height="786px"
+                android:layout_gravity="center"
+                android:id="@+id/img_outline_2"
+                android:alpha="0"
+                android:src="@drawable/button_circle_homepage_highlight_b" />
+            <ImageView
+                android:layout_width="786px"
+                android:layout_height="786px"
+                android:layout_gravity="center"
+                android:id="@+id/img_outline_3"
+                android:alpha="0"
+                android:src="@drawable/button_circle_homepage_highlight_c" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="630px"
+            android:layout_height="630px"
+            android:id="@+id/projector_switch_on"
+            android:layout_gravity="center"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/button_outline_homepage" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/button_circle_homepage" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/button_on_homepage" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1300px"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/projector_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/homepage_bg_tips"
+            android:gravity="center"
+            android:text="@string/projector_off_tips"
+            android:textColor="#ffffff"
+            android:textSize="10dp"
+            android:alpha="0"/>
+    </LinearLayout>
+</FrameLayout>

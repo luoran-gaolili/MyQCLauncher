@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+<!--    <fragment
+        android:id="@+id/fragment_news"
+        class="com.cmcm.newssdk.fragment.NewsTabListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.cmcm.newssdk.ui.view.NewsTabView
+        android:id="@+id/view_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+

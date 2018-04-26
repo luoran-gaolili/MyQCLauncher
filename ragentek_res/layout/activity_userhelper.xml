@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#eee">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userhelper_title"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userhelper_problem"/>
+
+    <EditText
+        android:id="@+id/userhelpr_et_problem"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:lines="5"
+        android:gravity="left|top"
+        android:hint="@string/userhelper_problem_hint"
+        android:background="@android:color/white"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userhelper_contact"/>
+
+    <EditText
+        android:id="@+id/userhelpr_et_contact"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:lines="1"
+        android:hint="@string/userhelper_contact_hint"
+        android:background="@android:color/white"/>
+
+    <CheckBox
+        android:id="@+id/userhelpr_cb_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="@string/userhelper_log"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userhelper_image"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/userhelpr_rv_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:overScrollMode="never" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/userhelpr_tv_submit"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/userhelper_submit"
+            android:gravity="center"
+            android:background="@drawable/bg_userhelpr_bottom"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+        </View>
+
+        <TextView
+            android:id="@+id/userhelpr_tv_service"
+            android:textSize="18dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/userhelper_service"
+            android:gravity="center"
+            android:background="@drawable/bg_userhelpr_bottom"/>
+
+    </LinearLayout>
+
+</LinearLayout>

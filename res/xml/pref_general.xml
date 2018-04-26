@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="autoreorder_icons_Checkbox"
+        android:summary="@string/detail_launcher_aligning"
+        android:title="@string/title_launcher_aligning" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="cycleSliding_Checkbox"
+        android:summary="@string/detail_launcher_sliding"
+        android:title="@string/title_launcher_sliding" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="orangeReading_Checkbox"
+        android:summary="@string/detail_launcher_reading"
+        android:title="@string/title_launcher_reading" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="key_projector"
+        android:summary="@string/detail_hide_projector"
+        android:title="@string/title_hied_projector" />
+</PreferenceScreen>

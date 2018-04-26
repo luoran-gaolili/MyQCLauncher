@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/statusbar_color"
+    android:orientation="vertical"
+   >
+
+    <com.ragentek.infostream.view.CategoryTabStrip
+        android:id="@+id/category_strip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_category_height_2"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingLeft="@dimen/pi_cell_width"
+        android:paddingRight="@dimen/pi_cell_width"/>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/pi_cell_width"
+        android:paddingRight="@dimen/pi_cell_width"
+        android:background="@color/news_more_list" />
+
+</LinearLayout>

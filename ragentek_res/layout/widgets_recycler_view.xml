@@ -1,0 +1,23 @@
+<com.qingcheng.home.RGKWidgetsRecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgets_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/pi_cell_padding"
+        android:paddingRight="@dimen/pi_cell_padding"
+        android:clipToPadding="true"
+        android:paddingBottom="@dimen/pi_cell_padding"/>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/full_screen_view_holder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone">-->
+    <!--</RelativeLayout>-->
+</com.qingcheng.home.RGKWidgetsRecyclerView>

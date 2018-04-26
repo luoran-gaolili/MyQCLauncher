@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- Add for MyUI in FWVGA density. -->
+    <dimen name="app_icon_size">52dp</dimen>
+    <dimen name="folder_preview_padding">5dp</dimen>
+    <dimen name="folder_preview_extra_offsety">12dp</dimen>
+    
+<!--zhujunqing modify for unread icon [20150818] -->
+<!-- Add for unread events feature. -->
+    <dimen name="unread_minWidth">20dp</dimen>
+    <dimen name="app_list_unread_margin_top">5dp</dimen>
+    <dimen name="app_list_unread_margin_right">6dp</dimen>
+    
+    <dimen name="normal_scale_page_indicator_bottom_margin">104dp</dimen>
+    <dimen name="overview_mode_page_indicator_bottom_margin">166dp</dimen>
+    
+<!--sunfeng add  @20150812 start:-->
+    <dimen name="folder_page_top">-20dip</dimen>  
+    <dimen name="folder_page_bottom">0dip</dimen> 
+	
+    <dimen name="workspace_page_home_height">470dip</dimen>
+    <dimen name="workspace_widget_page_home_height">410dip</dimen>
+    <dimen name="workspace_page_add_w">25dp</dimen>  
+    <dimen name="workspace_page_add_h">34dp</dimen> 
+    <dimen name="workspace_page_add_page_item">10dp</dimen>  
+    <!--dimen name="workspace_page_add_w">25dp</dimen>  
+    <dimen name="workspace_page_add_h">34dp</dimen-->
+	
+<!--sunfeng add  @20150812 end:-->
+</resources>

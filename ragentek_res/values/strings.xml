@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+
+    <string name="title_activity_add_tabs">AddTabsActivity</string>
+    <string name="title_activity_channel">ChannelActivity</string>
+    <string name="my_channel">My channel</string>
+    <string name="channel_tips">Long click can drag and drop item</string>
+    <string name="more_channel">More channel</string>
+    <string name="network_failed">The network got issue, click me try again</string>
+    <string name="home_pi_apps_title">Recommend apps</string>
+    <string name="home_pi_news_title">News</string>
+    <string name="home_pi_news_more">More</string>
+
+    <!-- Text to show when an event starts on the current day -->
+    <string name="today">Today</string>
+    <!-- Text to show when an event starts on the next day -->
+    <string name="tomorrow">Tomorrow</string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_today">TODAY, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_yesterday">YESTERDAY, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- This is shown as part of the heading at the top of a list of today's events. -->
+    <string name="agenda_tomorrow">TOMORROW, <xliff:g id="date">%1$s</xliff:g></string>
+    <!-- Text for an event starting on the current day with a start and end time.
+     For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="today_at_time_fmt">"Today at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+    <string name="tomorrow_at_time_fmt">"Tomorrow at <xliff:g id="time_interval">%s</xliff:g>"</string>
+    <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+    <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+
+    <string name="apps_title">App Suggestion</string>
+    <string name="hint_input_key_word">Key words</string>
+    <string name="location">Location</string>
+
+    <string name="userhelper_title">produce advice</string>
+    <string name="userhelper_problem">problem description</string>
+    <string name="userhelper_problem_hint">please write your problem here</string>
+    <string name="userhelper_contact">contact way</string>
+    <string name="userhelper_contact_hint">please write your qq/moblile phone/email/wechat here</string>
+    <string name="userhelper_image">add images here</string>
+    <string name="userhelper_submit">submit</string>
+    <string name="userhelper_service">online service</string>
+    <string name="userhelper_log">upload log</string>
+    <string name="home_pi_news_refresh">refresh</string>
+
+    <string name="widget_reader_title">Reader</string>
+    <string name="widget_view_books">Sheif</string>
+    <string name="just_now">just now</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="loading_title">loading</string>
+    <string name="loading_content" >Please wait..</string>
+    <string name="recommend_market_app" >RC</string>
+
+    <string name="news_wait">adding more, please wait</string>
+    <string name="news_recent_app_title">news</string>
+    <string name="widget_intelcards_title">Intelcards</string>
+    <string name="launcher_binder_setting">manage</string>
+</resources>

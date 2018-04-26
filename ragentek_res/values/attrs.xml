@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference"/>
+        <attr name="shadow_right" format="reference"/>
+        <attr name="shadow_bottom" format="reference"/>
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference"/>
+    <declare-styleable name="RectProgress">
+        <attr name="rect_progress" format="integer"/>
+        <attr name="rect_max" format="integer"/>
+
+        <attr name="rect_unfinished_color" format="color"/>
+        <attr name="rect_finished_color" format="color"/>
+
+        <attr name="rect_text_size" format="dimension"/>
+        <attr name="rect_text_color" format="color"/>
+
+        <attr name="rect_prefix_text" format="string"/>
+        <attr name="rect_suffix_text" format="string"/>
+    </declare-styleable>
+</resources>

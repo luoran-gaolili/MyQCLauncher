@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="title_bar_height">44.0dip</dimen>
+    <dimen name="head_size">28.0dip</dimen>
+    <dimen name="top_category_height">40.0dip</dimen>
+    <dimen name="category_tab_text">15.0sp</dimen>
+    <dimen name="top_category_height_2">48dip</dimen>
+    <dimen name="category_tab_highlight_text">18dp</dimen>
+    <dimen name="pi_apps_height">109dp</dimen>
+    <dimen name="pi_cell_width">12dp</dimen>
+
+    <dimen name="widget_left_right_padding">22dp</dimen>
+    <dimen name="apps_celllayout_height">109dp</dimen>
+
+    <dimen name="pi_cell_padding">4dp</dimen>
+    <dimen name="recycler_padding">6dp</dimen>
+    <dimen name="book_width">93dp</dimen>
+    <dimen name="book_height">124dp</dimen>
+    <dimen name="custom_app_divider">10dp</dimen>
+    <dimen name="touch_offset">10dp</dimen>
+
+   <dimen name="search_box_height">30dp</dimen>
+   <dimen name="pi_cell_large_margin">12dp</dimen>
+   <dimen name="pi_card_radius">2.5dp</dimen>
+   <dimen name="pi_divider_height">1dp</dimen>
+   <dimen name="custom_page_title_height">27dp</dimen>
+    <dimen name="pi_divider_height2">1px</dimen>
+</resources>

@@ -1,0 +1,130 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="211dp"
+    app:cardBackgroundColor="@color/custom_card"
+    app:cardCornerRadius="2.5dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    app:cardElevation="1dp"
+    android:id="@+id/custom_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/custom_ll_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/widget_title_bg"
+            android:paddingLeft="@dimen/pi_cell_width"
+            android:paddingRight="@dimen/pi_cell_width">
+
+            <TextView
+                android:id="@+id/widget_books_title"
+                style="@style/custom_page_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_pi_reader"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/widget_reader_title" />
+
+            <TextView
+                android:id="@+id/widget_books_more"
+                style="@style/custom_page_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="right|center_vertical"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/widget_view_books" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/books_holder_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/book1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/book_img_1"
+                    android:layout_width="@dimen/book_width"
+                    android:layout_height="@dimen/book_height" />
+
+                <TextView
+                    android:id="@+id/book_name_1"
+                    style="@style/custom_page_text_reader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/book2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/book_img_2"
+                    android:layout_width="@dimen/book_width"
+                    android:layout_height="@dimen/book_height" />
+
+                <TextView
+                    android:id="@+id/book_name_2"
+                    style="@style/custom_page_text_reader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/book3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="?android:attr/selectableItemBackground">
+
+                <ImageView
+                    android:id="@+id/book_img_3"
+                    android:layout_width="@dimen/book_width"
+                    android:layout_height="@dimen/book_height" />
+
+                <TextView
+                    android:id="@+id/book_name_3"
+                    style="@style/custom_page_text_reader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

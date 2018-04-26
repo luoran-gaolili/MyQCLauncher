@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+    
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.qingcheng.home">
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <!-- Dialer, Contacts, [All Apps], Messaging, Browser -->
+    <resolve
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" >
+        <favorite launcher:uri="#Intent;action=android.intent.action.DIAL;end" />
+        <favorite launcher:uri="tel:123" />
+        <favorite launcher:uri="#Intent;action=android.intent.action.CALL_BUTTON;end" />
+
+        <favorite
+            launcher:packageName="com.android.dialer"
+            launcher:className="com.android.dialer.DialtactsActivity" />
+    </resolve>
+
+    <resolve
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" >
+        <favorite
+            launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_MESSAGING;end" />
+        <favorite launcher:uri="sms:" />
+        <favorite launcher:uri="smsto:" />
+        <favorite launcher:uri="mms:" />
+        <favorite launcher:uri="mmsto:" />
+
+        <favorite
+            launcher:packageName="com.android.mms"
+            launcher:className="com.android.mms.ui.ConversationList" />
+    </resolve>
+    
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.contacts.PeopleActivity"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+		
+    <resolve
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" >
+        <favorite
+            launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_BROWSER;end" />
+        <favorite launcher:uri="http://www.example.com/" />
+
+        <favorite
+            launcher:packageName="com.android.browser"
+            launcher:className="com.android.browser.BrowserActivity" />
+    </resolve>
+    
+    <!-- Left screen [0] --> 
+    <appwidget
+	    launcher:packageName="com.greenorange.weather"
+	    launcher:className="com.greenorange.weather.wdiget.TimeWeatherWidget"
+	    launcher:screen="0"
+	    launcher:x="0"
+	    launcher:y="0"
+	    launcher:spanX="4"
+	    launcher:spanY="2" />
+    <favorite
+	    launcher:packageName="com.greenorange.appmarket"
+	    launcher:className="com.greenorange.appmarket.MainActivity"
+	    launcher:screen="0"
+	    launcher:x="0"
+	    launcher:y="3" />
+    <favorite
+	    launcher:packageName="com.qingcheng.theme"
+	    launcher:className="com.qingcheng.theme.ui.ThemeStoreMainActivity"
+	    launcher:screen="0"
+	    launcher:x="1"
+	    launcher:y="3"/>
+    <favorite
+	    launcher:packageName="com.android.music"
+	    launcher:className="com.android.music.MusicBrowserActivity"
+	    launcher:screen="0"
+	    launcher:x="2"
+	    launcher:y="3"/>
+    <favorite
+	    launcher:packageName="com.greenorange.yuleclient"
+	    launcher:className="com.greenorange.yuleclient.MainActivity"
+	    launcher:screen="0"
+	    launcher:x="3"
+	    launcher:y="3"/>
+    <favorite
+	    launcher:packageName="com.android.settings"
+	    launcher:className="com.android.settings.Settings"
+	    launcher:screen="0"
+	    launcher:x="0"
+	    launcher:y="4"/>
+    <favorite
+	    launcher:packageName="com.mediatek.camera"
+	    launcher:className="com.android.camera.CameraLauncher"
+	    launcher:screen="0"
+	    launcher:x="1"
+	    launcher:y="4"/>
+    <favorite
+	    launcher:packageName="com.android.gallery3d"
+	    launcher:className="com.android.gallery3d.app.GalleryActivity"
+	    launcher:screen="0"
+	    launcher:x="2"
+	    launcher:y="4"/>
+	    
+    <folder
+	    launcher:screen="0" 
+	    launcher:x="3" 
+	    launcher:y="4"
+	    launcher:title="@string/default_folder_title_tools" >
+	    <favorite 
+		    launcher:className="com.android.deskclock.DeskClock"
+		    launcher:packageName="com.android.deskclock"
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:className="com.android.calculator2.Calculator"
+		    launcher:packageName="com.android.calculator2"
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:className="com.android.soundrecorder.SoundRecorder" 
+		    launcher:packageName="com.android.soundrecorder" 
+		    launcher:container="1"/>    
+	    <favorite 
+		    launcher:className="com.android.quicksearchbox.SearchActivity" 
+		    launcher:packageName="com.android.quicksearchbox" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:className="com.android.fmradio.FmMainActivity"
+		    launcher:packageName="com.android.fmradio"
+		    launcher:container="1"/>
+	    <favorite 
+	        launcher:packageName="com.android.email"
+	        launcher:className="com.android.email.activity.Welcome"
+		    launcher:container="1"/>
+	    <favorite 
+			launcher:packageName="com.android.calendar"
+			launcher:className="com.android.calendar.AllInOneActivity"
+		    launcher:container="1"/>
+	    <favorite 
+			launcher:packageName="com.mediatek.notebook"
+			launcher:className="com.mediatek.notebook.NotesList"
+		    launcher:container="1"/>
+	    <favorite 
+			launcher:packageName="com.ragentek.ypush.service"
+			launcher:className="com.ragentek.ypush.service.ui.AssistActivity"
+		    launcher:container="1"/>
+    </folder>
+    
+    <!-- Middle screen [1] -->
+    <folder
+	    launcher:screen="1"
+	    launcher:x="0"
+	    launcher:y="0"
+	    launcher:title="@string/default_folder_title_system" >
+	    <favorite 
+		    launcher:packageName="com.android.ota" 
+		    launcher:className="com.android.ota.UpdateSystem" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.greenorange.myuicontantsbackup" 
+		    launcher:className="com.greenorange.myuicontantsbackup.ui.WelcomeActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.greenorange.contactsbackup"
+		    launcher:className="com.greenorange.contactsbackup.WelcomePageActivity"
+		    launcher:container="1"/>
+	    <favorite
+	        launcher:packageName="com.mediatek.datatransfer"
+	        launcher:className="com.mediatek.datatransfer.BootActivity"
+		    launcher:container="1"/>
+	    <favorite
+	        launcher:packageName="com.mediatek.backuprestore"
+	        launcher:className="com.mediatek.backuprestore.MainActivity"
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.android.providers.downloads.ui"
+		    launcher:className="com.android.providers.downloads.ui.DownloadList" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.android.documentsui"
+		    launcher:className="com.android.documentsui.LauncherActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.sohu.inputmethod.sogou"
+		    launcher:className="com.sohu.inputmethod.sogou.SogouIMELauncher" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.tencent.qqpimsecure"
+		    launcher:className="com.tencent.server.fore.QuickLoadActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.mediatek.taskmanager"
+		    launcher:className="com.mediatek.taskmanager.TaskManagerPageActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.mediatek.op01.plugin"
+		    launcher:className="com.mediatek.op01.plugin.Op01WifisettingsActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.android.stk"
+		    launcher:className="com.android.stk.StkMain"
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.android.utk"
+		    launcher:className="com.android.utk.UtkLauncherActivity"
+		    launcher:container="1"/>
+    </folder>
+	
+    <folder
+	    launcher:screen="1"
+	    launcher:x="1"
+	    launcher:y="0"
+	    launcher:title="@string/default_folder_title_entertainment" >
+	    <favorite 
+		    launcher:packageName="com.book2345.reader" 
+		    launcher:className="com.book2345.reader.LoadingActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="cn.kuwo.player" 
+		    launcher:className="cn.kuwo.player.activities.EntryActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.sohu.sohuvideo" 
+		    launcher:className="com.sohu.sohuvideo.FirstNavigationActivityGroup" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.tencent.qqlive" 
+		    launcher:className="com.tencent.qqlive.ona.activity.WelcomeActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.ximalaya.ting.android" 
+		    launcher:className="com.ximalaya.ting.android.activity.account.WelComeActivity" 
+		    launcher:container="1"/>
+    </folder>
+	
+    <folder
+	    launcher:screen="1"
+	    launcher:x="2"
+	    launcher:y="0"
+	    launcher:title="@string/default_folder_title_app_recommend" >
+	    <favorite 
+			launcher:packageName="com.autonavi.minimap"
+			launcher:className="com.autonavi.map.activity.SplashActivity"
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.ss.android.article.news" 
+		    launcher:className="com.ss.android.article.news.activity.SplashActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.baidu.searchbox" 
+		    launcher:className="com.baidu.searchbox.SplashActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="sogou.mobile.explorer" 
+		    launcher:className="sogou.mobile.explorer.NoDisplayActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="cn.wps.moffice_eng" 
+		    launcher:className="cn.wps.moffice.documentmanager.PreStartActivity" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="com.mediatek.mobileportal" 
+		    launcher:className="com.mediatek.mobileportal.MobilePortal" 
+		    launcher:container="1"/>
+    </folder>
+	
+    <folder
+	    launcher:screen="1"
+	    launcher:x="3"
+	    launcher:y="0"
+	    launcher:title="@string/default_folder_title_games" >
+	    <favorite 
+		    launcher:packageName="com.pokercity.bydrqp" 
+		    launcher:className="com.pokercity.bydrqp.lobby" 
+		    launcher:container="1"/>
+	    <favorite 
+		    launcher:packageName="cn.jj" 
+		    launcher:className="cn.jj.mobile.lobby.view.Main" 
+		    launcher:container="1"/>
+    </folder>
+	
+    <favorite
+	    launcher:packageName="com.mediatek2.filemanager"
+	    launcher:className="com.mediatek2.filemanager.FileManagerOperationActivity"
+	    launcher:screen="1"
+	    launcher:x="0"
+	    launcher:y="1" />
+    <favorite
+	    launcher:packageName="com.qingcheng.mobilemanager"
+	    launcher:className="com.qingcheng.mobilemanager.ui.activity.HomeActivity"
+	    launcher:screen="1"
+	    launcher:x="1"
+	    launcher:y="1" />
+    <favorite
+	    launcher:packageName="com.greenorange.weather"
+	    launcher:className="com.greenorange.weather.StartActivity"
+	    launcher:screen="1"
+	    launcher:x="2"
+	    launcher:y="1" />
+    <favorite
+	    launcher:packageName="com.zhenglei.launcher_test"
+	    launcher:className="com.zhenglei.launcher_test.StartActivity"
+	    launcher:screen="1"
+	    launcher:x="3"
+	    launcher:y="1" />
+    <favorite
+	    launcher:packageName="com.greenpoint.android.mc10086.activity"
+	    launcher:className="com.leadeon.cmcc.base.StartPageActivity"
+	    launcher:screen="1"
+	    launcher:x="0"
+	    launcher:y="2" />
+    <favorite
+	    launcher:packageName="com.aspire.popular"
+	    launcher:className="com.aspire.tmmhelper.activity.SplashActivity"
+	    launcher:screen="1"
+	    launcher:x="1"
+	    launcher:y="2" />
+    
+    <!-- Right screen [2] -->
+    
+</favorites>

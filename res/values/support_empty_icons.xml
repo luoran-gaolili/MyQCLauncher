@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string-array name="empty_app_title" translatable="false">
+        <item>Empty Test</item>
+    </string-array>
+    
+    <string-array name="empty_app_packagename">
+        <item>com.remy.test</item>
+    </string-array>
+    
+    <string-array name="empty_app_classname">
+        <item>com.remy.test.EmptyIconTest</item>
+    </string-array>
+</resources>

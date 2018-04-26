@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="title_activity_add_tabs">增加频道</string>
+    <string name="title_activity_channel">频道</string>
+    <string name="my_channel">我的频道</string>
+    <string name="channel_tips">长按可以拖拽交换位置</string>
+    <string name="more_channel">更多频道</string>
+    <string name="network_failed">网络有点问题，点击刷新</string>
+    <string name="home_pi_apps_title">推荐应用</string>
+    <string name="home_pi_news_title">新闻头条</string>
+
+    <string name="today">"今天"</string>
+    <string name="tomorrow">"明天"</string>
+    <string name="agenda_today">"今天，<xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="agenda_yesterday">"昨天，<xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="agenda_tomorrow">"明天，<xliff:g id="DATE">%1$s</xliff:g>"</string>
+    <string name="today_at_time_fmt">"今天 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="tomorrow_at_time_fmt">"明天 <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+    <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>，<xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+
+    <string name="apps_title">"应用建议"</string>
+    <string name="hint_input_key_word">"搜索联系人, 短信, 应用..."</string>
+    <string name="location">"地点"</string>
+    <string name="home_pi_news_more">"查看更多"</string>
+
+    <string name="user_helper">桌面体验</string>
+    <string name="report_log">日志反馈</string>
+    <string name="widget_reader_title">阅读</string>
+    <string name="widget_view_books">查看书架</string>
+    <string name="just_now">刚刚</string>
+    <string name="minutes_ago">分钟前</string>
+    <string name="hour_ago">小时前</string>
+    <string name="loading_title">加载</string>
+
+    <string name="userhelper_title">产品建议</string>
+    <string name="userhelper_problem">问题说明</string>
+    <string name="userhelper_problem_hint">请在此处填写您的问题</string>
+    <string name="userhelper_contact">联系方式</string>
+    <string name="userhelper_contact_hint">请在此处填写您的qq/手机/邮箱/微信</string>
+    <string name="userhelper_image">添加图片</string>
+    <string name="userhelper_submit">提交</string>
+    <string name="userhelper_service">在线反馈</string>
+    <string name="userhelper_log">上报log</string>
+
+    <string name="home_pi_news_refresh">刷新</string>
+    <string name="widget_reader_title">阅读</string>
+    <string name="widget_view_books">进入书城</string>
+    <string name="just_now">刚刚</string>
+    <string name="minutes_ago">分钟前</string>
+    <string name="hour_ago">小时前</string>
+    <string name="loading_title">加载</string>
+    <string name="recommend_market_app" >推荐</string>
+
+    <string name="news_wait">正在加载中，请稍等</string>
+    <string name="news_recent_app_title">新闻</string>
+    <string name="widget_intelcards_title">智能卡片</string>
+    <string name="launcher_binder_setting">管理</string>
+</resources>

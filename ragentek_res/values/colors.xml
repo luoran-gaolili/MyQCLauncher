@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clock_hour">#ff9813</color>
+    <color name="clock_minute">#ff7b2a</color>
+    <color name="statusbar_color">#02808F</color>
+    <color name="activity_bg_color">#fffafafa</color>
+    <color name="top_category_bar_background">#D22222</color>
+    <color name="divider">#ffdddddd</color>
+    
+    <color name="category_tab_text">#D7D7D7</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#FFFFFF</color>
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <color name="category_tab_highlight_bg">#ffd43d3d</color>
+    <color name="category_tab_highlight_dark_bg">#fffafafa</color>
+    
+    <color name="subscribe_activity_bg">#ffefefef</color>
+    <color name="subscribe_tip_text">#ff2e2e2e</color>
+    <color name="subscribe_seperate_line">#ffcdcdcd</color>
+    
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+    <color name="default_text">#ff454545</color>
+    
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    
+    <color name="darkgray">#A9A9A9</color>
+    <color name="default_window_bg">#f9f9f9</color>
+    
+    <color name="toutiao_list_item">#000000</color>
+    <color name="toutiao_list_item_ad">#80000000</color>
+
+    <color name="reader_name">#666666</color>
+
+    <color name="userhelpr_bottom">#eee</color>
+    <color name="userhelpr_bottom_press">#aaa</color>
+    <color name="custom_card">#ccffffff</color>
+
+    <color name="news_more_press">#A0AEADAB</color>
+    <color name="news_more">#ffffff</color>
+    <color name="news_more_list">#ffffff</color>
+    <color name="card_bg">#ccffffff</color>
+    <color name="card_bg_title">#e6ffffff</color>
+    <color name="custom_divider">#999999</color>
+    <color name="widget_title_bg">#E5FFFFFF</color>
+    <color name="widget_title_textcolor">#666666</color>
+
+    <color name="card_bg_project">#11ffffff</color>
+    <color name="widget_title_bg_project">#11ffffff</color>
+    <color name="widget_title_textcolor_project">#e6ffffff</color>
+    <color name="custom_divider_project">#1affffff</color>
+    <color name="toutiao_list_item_project">#cdffffff</color>
+    <color name="toutiao_list_item_ad_project">#cdffffff</color>
+    <color name="show_more">#f09117</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="rgk_divider">#ffdedede</color>
+</resources>

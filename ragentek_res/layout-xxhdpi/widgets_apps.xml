@@ -1,0 +1,47 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    app:cardBackgroundColor="@color/custom_card"
+    app:cardCornerRadius="2.5dp"
+    app:cardElevation="1dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp"
+    android:id="@+id/custom_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/custom_ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/widget_title_bg"
+        android:paddingLeft="@dimen/pi_cell_width"
+        android:paddingRight="@dimen/pi_cell_width">
+
+        <TextView
+            android:id="@+id/custom_tv_title"
+            style="@style/custom_page_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_pi_apps"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/apps_title" />
+
+    </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/apps_holder_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="30px"
+        />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,36 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    app:cardBackgroundColor="@color/card_bg"
+    app:cardCornerRadius="@dimen/pi_card_radius"
+    app:cardElevation="1dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blur"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/custom_page_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_page_title_height"
+            android:drawableLeft="@drawable/ic_pi_apps"
+            android:drawablePadding="10dp"
+            android:paddingLeft="@dimen/pi_cell_width"
+            android:paddingRight="@dimen/pi_cell_width"
+	    android:background="@color/card_bg_title"
+	    android:gravity="center_vertical"
+            android:text="@string/apps_title" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/apps_holder_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20px"
+        />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
